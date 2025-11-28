@@ -1,6 +1,6 @@
 package academy.devdojo.maratona.introducao;
 
-public class OlaDevDojo {
+public class Aula01OlaDevDojo {
     //Comentário de uma linha.
     /*
     Comentário de múltiplas linhas
