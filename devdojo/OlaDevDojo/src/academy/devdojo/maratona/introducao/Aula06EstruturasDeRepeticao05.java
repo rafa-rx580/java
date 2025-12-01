@@ -1,6 +1,6 @@
 package academy.devdojo.maratona.introducao;
 
-public class Aula06EstruturasDeRepeticao04 {
+public class Aula06EstruturasDeRepeticao05 {
     // Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado.
     // Condição: O valor da parcela >= 1000
 
@@ -9,13 +9,12 @@ public class Aula06EstruturasDeRepeticao04 {
         double valorTotal = 30000;
 
 
-        for (int parcela = 1; parcela <= valorTotal; parcela++) {
+        for (int parcela = (int) valorTotal; parcela >= 1; parcela--) {
             double valorParcela = valorTotal / parcela;
             if (valorParcela < 1000){
-                break;
+                continue;
             }
-            System.out.println(parcela + " parcelas de: R$" + valorParcela);
-
+            System.out.println("Parcela " + parcela + " R$" + valorParcela);
         }
     }
 }
