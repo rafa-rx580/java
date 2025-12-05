@@ -7,7 +7,7 @@ public class Aula08ArraysMultidimensionais01 {
         int[][] dias = new int [2][2];
 
         for (int i = 0; i < dias.length; i++) {
-            for (int j = 0; j < dias[0].length; j++) {
+            for (int j = 0; j < dias[i].length; j++) {
                 System.out.println(dias[i][j]);
             }
         }
