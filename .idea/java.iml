@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/devdojo/OlaDevDojo/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/devdojo/out" />
       <excludeFolder url="file://$MODULE_DIR$/devdojo/out/production/OlaDevDojo" />
@@ -12,6 +13,12 @@
       <excludeFolder url="file://$MODULE_DIR$/devdojo/out/production/OlaDevDojo/academy/devdojo/maratona/introducao" />
     </content>
     <content url="file://$MODULE_DIR$/devdojo/out/production/OlaDevDojo/academy/devdojo" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/cursoemvideo/aulas" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/devdojo/OlaDevDojo/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/cursoemvideo/out" />
+    </content>
+>>>>>>> 132bed7e40290f2b0e79facc980ad98cbae55608
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
