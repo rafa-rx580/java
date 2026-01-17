@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.introducao;
+package academy.devdojo.maratonajava.introducao;
 
 public class Aula08ArraysMultidimensionais02 {
     static void main() {
