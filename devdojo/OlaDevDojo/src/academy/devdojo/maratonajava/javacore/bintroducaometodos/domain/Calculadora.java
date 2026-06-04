@@ -14,10 +14,25 @@ public class Calculadora {
         System.out.println(num1 * num2);
     }
 
-    public double divideDoisNumeros(double num1, double num2){
+    public double divideDoisNumeros01(double num1, double num2){
         if (num2 == 0) {
             return 0;
         }
         return num1 / num2;
+    }
+
+    public double divideDoisNumeros02(double num1, double num2){
+        if (num2 != 0) {
+            return num1 / num2;
+        }
+        return 0;
+    }
+
+    public void imprimeDivisaoDoisNumeros(double num1, double num2){
+        if (num2 == 0){
+            System.out.println("Divisão por 0 é inexistente.");
+            return;
+        }
+        System.out.println(num1 / num2);
     }
 }
