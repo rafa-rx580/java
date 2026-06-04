@@ -8,6 +8,7 @@ public class CalculadoraTest01 {
         calculadora.somaDoisNumeros();
         System.out.println("Finalizando Soma.");
         calculadora.subtraiDoisNumeros();
-        System.out.println("Finalizando Subtracão");  
+        System.out.println("Finalizando Subtracão");
+        calculadora.multiplicaDoisNumeros(5, 2);
     }
 }
