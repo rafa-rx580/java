@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.bintroducaometodos.test;
 
-import academy.devdojo.maratonajava.javacore.bintroducaometodos.domain.ExercicioFuncionario;
+import academy.devdojo.maratonajava.javacore.cexercicios.domain.ExercicioFuncionario;
 
 public class FuncionarioTest {
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class FuncionarioTest {
         funcionario.nome = "Claudio";
         funcionario.idade = 30;
         funcionario.salario = new double[]{1800, 2600, 3400};
-        salario = funcionario.salario;
+        double[] salario = funcionario.salario;
 
 
 

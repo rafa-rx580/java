@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.bintroducaometodos.domain;
+package academy.devdojo.maratonajava.javacore.cexercicios.domain;
 
 public class ExercicioFuncionario {
     public String nome;
